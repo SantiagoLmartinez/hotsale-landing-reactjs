@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{box-sizing: border-box;}
 body{
   background: #222;
 }
@@ -28,6 +29,7 @@ body{
 } 
 
 .hotsale{
+  width: 100%;
   background: rgb(244,9,9);
   background: linear-gradient(90deg, rgba(244,9,9,1) 0%, rgba(253,29,29,1) 45%, rgba(253,71,40,1) 60%, rgba(252,176,69,1) 100%);  
   height: 70vh;
@@ -63,7 +65,9 @@ h1{
 }
 
 .footer div{
+  box-sizing: border-box;
   color: #111;
+  padding: 5px;
 
 }
 
