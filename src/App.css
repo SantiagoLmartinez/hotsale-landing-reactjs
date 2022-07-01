@@ -6,6 +6,19 @@ body{
   text-align: center;
 }
 
+.marcaLogo{
+  color: yellow;
+  padding: 10px;
+  /* background-color: #fff; */
+}
+
+.marcaLogo span{
+  padding: 5px;
+  width: 500px;
+  border-radius: 30% 30% 30% 30%;
+  background-color: red;
+}
+
 .carrito-icon{
   color: #FFF;
   background: #fff;}
@@ -21,6 +34,7 @@ body{
 }
 
 h1{
+  
   font-family: 'Staatliches', cursive;
   font-size: 10rem;
   /* text-shadow: -1px 9px 8px rgba(0,0,0,0.6); */
@@ -36,7 +50,7 @@ h1{
 }
 .footer div{
   width: 30%;
-  background-color: rgba(161, 159, 159, .2);
+  background-color: rgb(255, 255, 255);
   /* background-color: rgba(179, 154, 154, 0.3S); */
   border-radius: 10px;
   margin-right: 5px;
@@ -46,6 +60,10 @@ h1{
 .footer div{
   color: #111;
 
+}
+
+.footer p{
+    margin: 0;
 }
 
 @media (max-width: 750px) {

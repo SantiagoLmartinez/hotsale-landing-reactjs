@@ -7,7 +7,7 @@ const MainComp = () => {
                     <div>
                         <h1>HOT SALE</h1>
                     </div>
-                    <div>
+                    <div className="">
                         <p>No  te pierdas nuestros <br /> <strong>DESCUENTOS  ESPECIALES</strong>!</p>
                         <button className='btn  btn-danger   w-100'>VER OFERTAS</button>
                     </div>
