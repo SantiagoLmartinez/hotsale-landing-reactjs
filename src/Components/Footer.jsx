@@ -1,7 +1,7 @@
 const FooterComp = () => {
     return (
         <>
-            <footer className='footer fixed-bottom mb-2'>
+            <footer className='footer mb-2'>
                 <div  className="d-flex flex-column alig-items-center">
                     <h4> <span><i className="fa-solid fa-truck-fast"></i></span> Envio Gratis</h4>
                     <p>Para compras mayor a $3000</p>
